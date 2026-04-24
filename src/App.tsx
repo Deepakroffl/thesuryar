@@ -70,7 +70,7 @@ const projects: Project[] = [
       "Performance-focused mattress eCommerce website built on Shopify with optimized UX and SEO structure.",
     tech: ["Shopify", "Liquid", "SEO"],
     image:
-      "./images/mmfoam.png",
+      "/images/mmfoam.png",
     liveUrl: "https://mmfoam.com/",
     caseStudyUrl: "#",
   },
