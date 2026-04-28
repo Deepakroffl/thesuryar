@@ -263,24 +263,24 @@ const projects: Project[] = [
     caseStudyUrl: "#",
   },
   {
-    title: "Client Workflow Dashboard",
+    title: "Shafi ahamed personal website",
     category: "PERN Stack",
     description:
       "Custom dashboard for lead tracking, activity logs, and reporting for business teams.",
     tech: ["PostgreSQL", "Express", "React", "Node.js"],
     image:
-      "https://images.unsplash.com/photo-1551281044-8b4c6f4a7f46?auto=format&fit=crop&w=1200&q=80",
-    liveUrl: "#",
+      "./images/shafiahamed.png",
+    liveUrl: "https://shafiahamed.vercel.app/",
     caseStudyUrl: "#",
   },
   {
-    title: "Thuari App Interface",
-    category: "UI/UX Design",
+    title: "Thuari",
+    category: "WordPress",
     description:
       "User-first interface concepts for wholesale product discovery and Amazon reselling flow.",
-    tech: ["Figma", "Wireframing", "Design System"],
+    tech: ["WordPress", "Elementor", "Custom JS", "SEO"],
     image:
-      "https://images.unsplash.com/photo-1581291519195-ef11498d1cf5?auto=format&fit=crop&w=1200&q=80",
+      "./images/thuari.png",
     liveUrl: "#",
     caseStudyUrl: "#",
   },
@@ -338,9 +338,9 @@ const testimonials = [
 
 const heroSocialLinks = [
   { label: "YouTube", href: "https://www.youtube.com/@thesuryar", icon: FaYoutube },
-  { label: "LinkedIn", href: "#", icon: FaLinkedinIn },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/thesuryar/", icon: FaLinkedinIn },
   { label: "Instagram", href: "https://www.instagram.com/thesuryar", icon: FaInstagram },
-  { label: "GitHub", href: "#", icon: FaGithub },
+  { label: "GitHub", href: "https://github.com/Deepakroffl", icon: FaGithub },
 ];
 
 const sectionMotion = {
@@ -813,7 +813,7 @@ export default function App() {
             ))}
           </div>
           <a
-            href="/resume.pdf"
+            href="./public/images/resume.pdf"
             download
             className="rounded-full border border-cyan-500/60 px-4 py-2 text-sm font-medium text-cyan-300 transition hover:bg-cyan-500/10"
           >
@@ -968,7 +968,13 @@ export default function App() {
           </div>
         </motion.section>
 
-        <motion.section id="portfolio" {...sectionMotion} className="border-y border-slate-800">
+        <motion.section
+          id="portfolio"
+          {...sectionMotion}
+          initial={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          className="border-y border-slate-800"
+        >
           <div className="mx-auto w-[min(1120px,92%)] py-20">
             <SectionTitle
               title="Portfolio / My Work"
