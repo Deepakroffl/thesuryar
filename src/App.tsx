@@ -274,6 +274,28 @@ const projects: Project[] = [
     caseStudyUrl: "#",
   },
   {
+    title: "Habit flow - Habit tracker",
+    category: "PERN Stack",
+    description:
+      "Created a habit tracking web application with user authentication, habit creation, progress tracking, and analytics.",
+    tech: ["PostgreSQL", "Express", "React", "Node.js"],
+    image:
+      "./images/habitflow.png",
+    liveUrl: "https://habitflow-two-phi.vercel.app/",
+    caseStudyUrl: "#",
+  },
+  {
+    title: "Deepak R personal portfolio",
+    category: "PERN Stack",
+    description:
+      "Created a habit tracking web application with user authentication, habit creation, progress tracking, and analytics.",
+    tech: ["PostgreSQL", "Express", "React", "Node.js"],
+    image:
+      "./images/deepakrportfolio.png",
+    liveUrl: "https://thesuryar.vercel.app/",
+    caseStudyUrl: "#",
+  },
+  {
     title: "Thuari",
     category: "WordPress",
     description:
@@ -842,7 +864,7 @@ export default function App() {
             <div>
               <p className="mb-4 text-sm uppercase tracking-[0.2em] text-cyan-300">Thesuryar</p>
               <h1 className="max-w-4xl text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">
-                Developer | Founder of Thuari | Investor | Content Creator
+                Full stack ( PERN Stack ) | React | Node.js developer
               </h1>
               <p className="mt-6 max-w-2xl text-base text-slate-200 sm:text-lg">
                 I build digital products and growth-focused platforms that combine clean development,
@@ -918,14 +940,11 @@ export default function App() {
               discipline, and the desire to create a better future through hard work.
             </p>
             <p>
-              Along with development and design, I also enjoy sharing ideas and insights through
-              content creation. I believe in learning continuously, growing together, and creating
+              Along with development and design, I also enjoy sharing ideas and insights. I believe in learning continuously, growing together, and creating
               value through both work and knowledge.
             </p>
             <p>
-              I am also interested in business and investing. Currently, I am working on my
-              business idea called Thuari, focused on finding trusted wholesale products and
-              reselling them on Amazon.
+              I am also interested in investment and personal finance.
             </p>
           </div>
         </motion.section>
@@ -1187,12 +1206,9 @@ export default function App() {
         <motion.section {...sectionMotion} className="mx-auto w-[min(1120px,92%)] py-20">
           <SectionTitle title="Passion & Vision" />
           <p className="max-w-4xl text-base leading-relaxed text-slate-300">
-            I am passionate about growth, business, investing, and sharing knowledge. Beyond
+            I am passionate about growth, investing, and sharing knowledge. Beyond
             development and design, I enjoy learning about money, stock markets, and other forms
-            of investment. I share ideas and insights through YouTube because I believe in growing
-            together by sharing knowledge. I also started investing at the age of 22 and am
-            currently working on my business idea called Thuari, which focuses on finding trusted
-            and valuable wholesale products and reselling them on Amazon.
+            of investment.
           </p>
         </motion.section>
 
@@ -1261,7 +1277,7 @@ export default function App() {
           </div>
         </motion.section>
 
-        <motion.section {...sectionMotion} className="mx-auto w-[min(1120px,92%)] py-20">
+        {/* <motion.section {...sectionMotion} className="mx-auto w-[min(1120px,92%)] py-20">
           <SectionTitle title="Latest YouTube Videos" />
           {youtubeLoading ? (
             <div className="grid gap-4 md:grid-cols-3">
@@ -1299,7 +1315,7 @@ export default function App() {
               </div>
             </div>
           )}
-        </motion.section>
+        </motion.section> */}
 
         <motion.section {...sectionMotion} className="border-y border-slate-800">
           <div className="mx-auto w-[min(1120px,92%)] py-20">
@@ -1324,7 +1340,7 @@ export default function App() {
             <div className="overflow-hidden rounded-2xl border border-slate-800">
               <iframe
                 title="Deepak R location"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d492.07425045026844!2d78.8530556!3d9.3691479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b01bdee6aa2dbe9%3A0x1a79a2e8c720dfce!2sthuari!5e0!3m2!1sen!2sin!4v1775971583364!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.709608468532!2d80.12863637486883!3d13.054147087268836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261bd57c8376d%3A0xab5c536f43ed2afd!2sPillaiyar%20Koil%20St%2C%20Poonamallee%2C%20Chennai%2C%20Tamil%20Nadu%20600077!5e0!3m2!1sen!2sin!4v1778324174602!5m2!1sen!2sin"
                 className="h-full min-h-[420px] w-full"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
