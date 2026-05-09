@@ -359,7 +359,6 @@ const testimonials = [
 ];
 
 const heroSocialLinks = [
-  { label: "YouTube", href: "https://www.youtube.com/@thesuryar", icon: FaYoutube },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/thesuryar/", icon: FaLinkedinIn },
   { label: "Instagram", href: "https://www.instagram.com/thesuryar", icon: FaInstagram },
   { label: "GitHub", href: "https://github.com/Deepakroffl", icon: FaGithub },
