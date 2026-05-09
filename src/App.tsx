@@ -295,17 +295,6 @@ const projects: Project[] = [
     liveUrl: "https://thesuryar.vercel.app/",
     caseStudyUrl: "#",
   },
-  {
-    title: "Thuari",
-    category: "WordPress",
-    description:
-      "User-first interface concepts for wholesale product discovery and Amazon reselling flow.",
-    tech: ["WordPress", "Elementor", "Custom JS", "SEO"],
-    image:
-      "./images/thuari.png",
-    liveUrl: "#",
-    caseStudyUrl: "#",
-  },
 ];
 
 const clients = [
