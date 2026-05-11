@@ -823,7 +823,7 @@ export default function App() {
             ))}
           </div>
           <a
-            href="./deepakresume.pdf"
+            href="https://drive.google.com/file/d/1eNTJE1u_pyO2kZD_v3dJ0nc2NF6j_tYz/view?usp=sharing"
             download
             className="rounded-full border border-cyan-500/60 px-4 py-2 text-sm font-medium text-cyan-300 transition hover:bg-cyan-500/10"
           >
