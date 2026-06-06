@@ -55,11 +55,12 @@ const experience = [
   {
     role: "Full Stack Developer",
     date: "Nov 2024 - Present",
-    place: "Grow Digitally Consulting, Chennai",
+    place: "Digital Marketing Agency, Chennai",
     mode: "On Site",
     summary:
       "Currently working as a Full Stack Developer, building modern business websites with performance-focused functionality.",
   },
+  
 ];
 
 const projects: Project[] = [
@@ -262,7 +263,7 @@ const projects: Project[] = [
     liveUrl: "#",
     caseStudyUrl: "#",
   },
-  {
+  /* {
     title: "Shafi ahamed personal website",
     category: "PERN Stack",
     description:
@@ -272,7 +273,7 @@ const projects: Project[] = [
       "./images/shafiahamed.png",
     liveUrl: "https://shafiahamed.vercel.app/",
     caseStudyUrl: "#",
-  },
+  }, */
   {
     title: "Habit flow - Habit tracker",
     category: "PERN Stack",
@@ -316,11 +317,18 @@ const awards = [
       "./images/bytes2k23price.png",
   },
   {
-    title: "Rising Star Award - Grow Digitally Consulting",
+    title: "Rising Star Award - Digital Marketing Agency",
     description:
-      "After college, I joined Grow Digitally Consulting and received the Rising Star Award for learning quickly, working efficiently, and delivering the 10x International School project in 45 days with multiple logical functionalities.",
+      "After college, I joined a digital marketing agency and received the Rising Star Award for learning quickly, working efficiently, and delivering the 10x International School project in 45 days with multiple logical functionalities.",
     image:
       " ./images/risingstaraward.png",
+  },
+  {
+    title: "Vaigai river cleaning initiative recognition",
+    description:
+      "During my college days, I actively participated in the Vaigai river cleaning initiative, contributing to environmental conservation efforts. My dedication and hard work in this initiative were recognized by the local community and authorities.",
+    image:
+      " ./images/slp.jpg",
   },
 ];
 
@@ -852,7 +860,7 @@ export default function App() {
             <div>
               <p className="mb-4 text-sm uppercase tracking-[0.2em] text-cyan-300">Thesuryar</p>
               <h1 className="max-w-4xl text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">
-                Full stack ( PERN Stack ) | React | Node.js developer
+                Wordpress | Shopify | PERN Stack | UI/UX Designer
               </h1>
               <p className="mt-6 max-w-2xl text-base text-slate-200 sm:text-lg">
                 I build digital products and growth-focused platforms that combine clean development,
